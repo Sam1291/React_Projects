@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1280px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 72px;
+    align-items: center;  
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    gap :23px;
+}
+.login{
+    all: unset;   /* this makes all the basic html styling of the emelent null so we can style it from scratch*/
+    background:rgb(186, 28, 28) ;
+   border-radius: 3px;
+    height:32px;
+    color: wheat;
+    font-weight: 500;
+    padding: 6px 16px;
+    
+}
+.login:hover{
+    cursor: pointer;
+}
+.Hero{
+    display:flex;
+    margin: 0 auto;
+    max-width: 1125px;
+    height: calc(100vh - 72px);
+    align-items: center;
+
+}
+.Hero_image{
+    max-width: 530px;
+    max-height: 487.06px;
+}
+.Hero_button{
+    display: flex;
+    gap: 40px;
+    
+}
+.category:hover{
+    cursor: pointer;
+}
+.category{
+    all: unset;
+    color: rgb(2, 1, 1);
+    display: flex;
+    background:transparent;
+    max-width: 109px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    max-height: 41px;
+    padding: 6px 16px;
+}
+.shop_now{
+    all: unset;
+    color: rgb(2, 1, 1);
+    display: flex;
+    background:rgb(186, 28, 28) ;
+    max-width: 150px;
+    gap: 40px;
+    border-radius: 3px;
+    border-color: black;
+    max-height: 41px;
+    padding: 6px 16px;              
+}
+.shop_now:hover{
+    cursor: pointer;
+}
+.shop_last{
+    max-width: 131px;
+    max-height: 67px;
+}
+Hero h1{
+    font-weight: 800;
+    line-height: 102px;
+    font-size: 108px;
+}
+
+p{
+    font-weight: 900;
+    color: rgb(27, 26, 26);
+}
+.tiny{
+    font-weight: 300;
+}
